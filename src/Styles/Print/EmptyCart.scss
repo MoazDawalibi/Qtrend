@@ -1,0 +1,100 @@
+.EmptyCart_page{
+    background: #EDF1F4;
+    min-height: 50vh;
+    .empty_cart{
+        min-height: 60vh;
+        display: flex;justify-content: space-around;align-items: center; flex-direction: column;
+        width: 80vw;
+        margin: auto;
+        margin-bottom: 200px;
+        svg{
+            font-size: 100px;
+        }
+        .empty_cart_text{
+            font-size: 50px;
+            font-weight: 500;
+            margin-inline: auto;
+            span{
+                color: red;
+                font-weight: 900;
+            }
+        }
+        .return_button{
+            border-radius: 8px;
+            background: #C4FD14;
+            min-width: 35vw;
+            border: none;
+            border-radius: 4em;
+            min-height: 15vh;
+            cursor: pointer;
+            .return_p{
+                display: flex;justify-content: center;align-items: center;
+                height: 15vh;
+                color: #1D1D1D;
+                font-family: Poppins;
+                font-size: 30px;
+                font-weight: 600;
+                width: 30vw;
+                margin-inline: auto;
+            }
+        }
+    }
+    .Footer{
+        padding-bottom: 2vw !important;
+    }
+}
+@include devices(Minlaptop){
+    .empty_cart{
+        .empty_cart_text{
+            font-size: 40px !important;
+        }
+        .return_p{
+            font-size: 20px !important;
+        }
+    }
+}
+@include devices(mobile){
+    .empty_cart{
+        .empty_cart_text{
+            font-size: 27px !important;
+        }
+        .return_button{
+            min-width:50vw  !important;
+           .return_p{
+            font-size: 14px !important;
+            width: 50vw !important;
+            } 
+        }
+        
+    }
+}
+@include devices(SS_mobile){
+    .empty_cart{
+        .empty_cart_text{
+            font-size: 22px !important;
+        }
+        .return_button{
+            min-width:70vw  !important;
+           .return_p{
+            font-size: 14px !important;
+            width: 70vw !important;
+            } 
+        }
+        
+    }
+}
+@include devices(XS_mobile){
+    .empty_cart{
+        .empty_cart_text{
+            font-size: 18px !important;
+        }
+        .return_button{
+            min-width:70vw  !important;
+           .return_p{
+            font-size: 12px !important;
+            width: 70vw !important;
+            } 
+        }
+        
+    }
+}

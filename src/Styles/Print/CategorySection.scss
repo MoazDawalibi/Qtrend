@@ -1,0 +1,32 @@
+.CategorySection{
+    width: 100vw;
+    height:100vh;
+    background: rgba(25, 149, 202, 0.80);
+    display: flex;align-items: center;
+    //  justify-content: center;
+    .product_swiper{
+        display: flex;
+        //  align-items: center;justify-content: space-around ;
+        width: 50vw;
+        .img_container{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-inline: 4vw;
+            img{
+                width: 20vw;
+                z-index: 99992;
+            }
+            
+        }
+    //    .ProductCard{
+    //     // height: 10vh;
+    //     width: 15vw;
+    //     margin-inline: 1.7em;
+    //    }
+    }
+}
+
+
+

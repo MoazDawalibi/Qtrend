@@ -1,0 +1,79 @@
+.Home3{
+    max-width: 100vw;
+    position: relative;
+    transform: translateY(-30vw);
+    height: 23vw;
+    display: flex;
+    max-width: 100vw;
+    z-index: 999;
+    .Home3_Left{
+        height: fit-content;
+        padding-bottom: 2vw;
+        background-color: black;
+        width: 64%;
+        background-image: url('../../../public/Home/4/Ibra_Is_Trash.gif');
+         background-size: cover;
+         display: flex;
+         padding-top: 2%;
+         padding-left: 5vw;
+        
+    }
+  
+.Home3_Sections{
+       width: 27vw;
+       margin-right: 5vw;
+.Image_Wraper{
+    position: relative;
+
+    &::before{
+        z-index: 9999;
+        position: absolute;
+        content: "02.11.2022";
+        background-color: black;
+        color: white;
+        bottom: 7px;
+        right: 0;
+        padding: .2vw;
+        font-size: 1.2vw;
+        
+    }
+}
+    img{
+        height: 45%;
+        width: 27vw;
+        position: relative;
+     
+
+       
+    }
+    h1{
+        color: white;
+        margin-top: 3vw;
+        font-size: 2vw;
+    }
+    p{
+        color: white;
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+        font-size: 1.4vw;
+        line-height: 2vw;
+    }
+    a{
+        color: white;
+        font-size: 1.4vw;
+
+    }
+
+}
+.Home3_Right{
+    height: fit-content;
+    padding-bottom: 2vw;    width: 30%;
+     padding-top: 2%;
+     padding-left: 1vw;
+     h1,p,a{
+        color: black !important;
+    }
+}
+
+
+}

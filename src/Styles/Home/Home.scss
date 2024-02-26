@@ -1,0 +1,53 @@
+
+
+.Home,.Home2{
+    max-width: 100vw;
+    position: relative;
+    background-color: #eff1f2;
+
+    
+    img{
+        max-width: 100vw;
+        width: 100%;
+    }
+    .HomeCenter_h{
+        position: absolute;
+        color: #FFF;
+        // font-family: Poppins;
+        font-size: 2.3vw;
+        font-weight: 500;
+        letter-spacing: .15vw;
+        padding: 29.5vw 0vw 0vw 12.8vw ;
+    }
+    .HomeCenter_button{
+        position: absolute;
+        color: #FFF;
+        // font-family: Poppins;
+        font-size: 1.6vw;
+        font-weight: 500;
+        letter-spacing: -.05vw;
+        border-radius: .5vw;
+        border: none;
+        background: #BBE76B;    
+        text-align: center;
+        padding: .8vw 1.7vw 1vw .9vw ;
+        margin: 33.2vw 0vw 0vw 12.9vw;
+    }
+    .HomeCenter_button:hover{
+        background: #000;
+    }
+}
+
+
+//////////////////
+.Home2_Hijab{
+    opacity: 0;
+animation: Ibra_Is_Trash 1.4s infinite;
+transition: .6s ease-in-out;
+}
+.Home_BG{
+    max-width: 100vw;
+    width: 100vw;
+    height: 62.5vw;
+}
+///////////////////

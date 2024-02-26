@@ -1,0 +1,481 @@
+.Big_Arrow{
+   transition: .5s ease-in-out;
+        animation: Arrow 1s infinite;
+}
+.Mid_Arrow{
+    transition: .5s ease-in-out;
+    animation: Arrow 1.5s infinite;
+}
+.Small_Arrow{
+  transition: .5s ease-in-out;
+    animation: Arrow 2s infinite;
+}
+
+.Footer{
+  padding-bottom: 8vw !important;
+}
+
+.Drag_Down_1,
+.Drag_Down_2,
+.Drag_Down_3,
+.Drag_Down_4,
+.Drag_Down_5,
+.Drag_Down_6{
+display: none;
+position: absolute;
+bottom: 0;
+height: 31vw;
+width: 100vw;
+cursor: pointer;
+opacity: .1;
+}
+.Drag_Up_1,
+.Drag_Up_2,
+.Drag_Up_3,
+.Drag_Up_4,
+.Drag_Up_5,
+.Drag_Up_6{
+display: none;
+position: absolute;
+top: 0;
+height: 31vw;
+width: 100vw;
+cursor: pointer;
+opacity: .5;
+}
+.Drag_Down_1{
+    display: block;
+  }
+  .Drag_Up_1{
+    display: block;
+  }
+
+.Drage_Bg{
+  width: 100vw;
+  height: 312.6vw;
+
+}
+.Drag_Pages{
+  width: 100vw;
+  max-height: 62.5vw;
+  overflow: hidden;
+  position: relative;
+}
+
+
+//////////////////////////// Start_T1
+
+.Word_Section {
+  transform: translateY(100vw);
+}
+
+.Looking {
+  transform: translatex(100vw);
+}
+
+.Right_triangle {
+  transform: translate(1166.604px, 489.538px) translate(120vw, 0);
+}
+  /////////// Prosser_1
+
+.T6_1{
+  .Drag1_OP {
+    opacity: 0 !important;
+    transition: 1s ease-in-out;
+  }
+  .Drag_Down_1{
+    display: none;
+  }
+  .Drag_Down_2{
+    display: block !important;
+  }
+  .Drag_Up_2{
+    display: block !important;
+  }
+
+    .Word_Section {
+    transform: translateY(0);
+    transition: 1s ease-in-out;
+
+
+  }
+
+  .Looking {
+    transform: translatex(0);
+    transition: 1s ease-in-out;
+
+
+  }
+
+  .Right_triangle {
+    transform: translate(1166.604px, 489.538px) translate(0, 0);
+    transition: 1s ease-in-out;
+
+  }
+}
+///////////////////////////////// End_1
+
+
+
+
+//////////////////////////// Start_T2
+.Top_Images{
+    scale: .7;
+    transform-origin: 40% 20%;
+    transition: 2s ease-in-out;
+
+ }
+ .Services6_2_Text{
+    opacity: 0;
+    transition: 2s ease-in-out;
+    transform: translate(-17px, 899px)
+    translate(0, 100vw);
+ }
+
+ .Services_6_2_Left_Rectangle{
+  transform: translate(-17px, 899px)
+  translate(-100vw, 0);
+
+    transition: 2s ease-in-out;
+ }
+
+  
+      /////////// Prosser_2
+  .T6_2{
+   .Drage_Bg{
+    transform: translateY(-62.5vw);
+    transition: 2s ease-in-out;
+   }
+    .Drag_Down_2{  display: none;}
+    .Drag_Down_3{ display: block !important;}
+
+    .Drag_Up_2{
+      display: none !important;
+    }
+    .Drag_Up_3{
+      display: block !important;
+    }
+   .Services6_2_Text{
+    opacity: 1;
+    transform: translate(-17px, 899px)
+    translate(0, 0);
+ }
+
+ .Services_6_2_Left_Rectangle{
+  transform: translate(-17px, 899px)
+  translate(0, 0);
+
+ }
+ .Top_Images{
+            scale: 1;
+         }
+  
+  }
+  ///////////////////////////////// End_2
+  
+  
+
+
+//////////////////////////// Start_T3
+ 
+.S6_3_Images{
+  scale: .6;
+  transform-origin: 60% 45%;
+  transition: 2s ease-in-out;
+}
+.Star{
+  opacity: 0;
+    transform: translate(805px, 100px) ;
+    scale: 1.4;
+    transform-origin: 70%;
+    transition: 3s ease-in-out;
+
+}
+.Media_Box {
+  // 0.525 1800
+  transform: translate(0.525px ,1800px) translateX(-100vw);
+
+  transition: 2s ease-in-out;
+
+}
+.Drage4_Left_Rectangel {
+  transform: translate(-7.833px ,1973.52px) translateX(-200vw);
+  transition: 3s ease-in-out;
+    opacity: 1;
+  
+}
+.Drage4_Word {
+  transform: translate(224.526px, 2561px) translateY(100vw);
+  transition: 2s ease-in-out;
+}
+
+    /////////// Prosser_3
+.T6_3{
+  .Services_6_2_Left_Rectangle{
+    transform: translate(-7.833px ,1973.52px) translateX(-100vw);
+  }
+ .Drage_Bg{
+  transform: translateY(-125vw);
+  transition: 2s ease-in-out;
+ }
+  .Drag_Down_3{  display: none;}
+  .Drag_Down_4{ display: block !important;}
+
+  .Drag_Up_3{
+    display: none !important;
+  }
+  .Drag_Up_4{
+    display: block !important;
+  }
+  .S6_3_Images{
+    scale: 1;
+   
+  }
+  .Star{
+    opacity: 1;
+    transform: translate(805px, 551px) ;
+    scale: 1;
+}
+.Media_Box {
+  transform: translate(0.525px ,1800px) translateX(0vw);
+}
+.Drage4_Left_Rectangel {
+  transform: translate(-7.833px ,1973.52px) translateX(0vw);
+  opacity: 1;
+  
+}
+.Drage4_Word {
+  transform: translate(224.526px, 2561px) translateY(0vw);
+}
+
+}
+///////////////////////////////// End_3
+
+
+
+//////////////////////////// Start_T4
+
+  /////////// Prosser_1
+
+  .S6_5_G{
+    scale: .6;
+    transform-origin: 40% 5%;
+    transition: 2s ease-in-out;
+  }
+.T6_4{
+
+  .Drage_Bg{
+    transform: translateY(-187.5vw);
+    transition: 2s ease-in-out;
+   }
+    .Drag_Down_4{  display: none;}
+    .Drag_Down_5{ display: block !important;}
+    .Drag_Up_4{
+      display: none !important;
+    }
+    .Drag_Up_5{
+      display: block !important;
+    }
+    .S6_5_G{
+      scale: 1;
+     
+    }  
+    .Star{
+      transform: translate(805px, 1771px) ;
+      transition: 4s ease-in-out;
+      z-index: 99999;
+
+    }
+
+  
+}
+///////////////////////////////// End_4
+
+
+
+//////////////////////////// Start_T5
+.Path_15_2{
+  transform: translate(3150px ,270px)
+  rotate(-23deg) scale(.7);
+}
+.Mobile_image9{
+  transform: translateX(120vw);
+}
+.Content_S6_6{
+  transform: translateX(-120vw);
+
+}
+  /////////// Prosser_1
+
+.T6_5{
+  .Path_15_2{
+    transform: translate(1150px ,270px)
+    rotate(-23deg) scale(.7);
+  }
+  .Mobile_image9{
+    transform: translateX(0vw);
+  }
+  
+  .Drage_Bg{
+    transform: translateY(-250vw);
+    transition: 2s ease-in-out;
+   }
+    .Drag_Down_5{  display: none;}
+    .Drag_Down_6{ display: block !important;}
+   
+    .Drag_Up_5{
+      display: none !important;
+    }
+    .Drag_Up_6{
+      display: block !important;
+    }
+    .Footer{
+      bottom: 1vw !important;
+    }
+    .Path_15_2{
+      transform: translate(1150px ,270px)
+      rotate(-23deg) scale(.7);
+      transition: 2s ease-in-out;
+
+    }
+    .Mobile_image9{
+      transform: translateX(0vw);
+      transition: 2s ease-in-out;
+
+    }
+    .Content_S6_6{
+      transform: translateX(0vw);
+      transition: 2s ease-in-out;
+
+    
+    }
+  
+}
+///////////////////////////////// End_5
+
+
+
+.Drag_Pages{
+  .Footer{
+    position: absolute;
+    bottom: -100vw;
+    transition: 2s ease-in-out;
+
+  }
+}
+
+
+.Drag_Pages{
+  @media screen and (max-width: 1000px) {
+    overflow: visible;
+    .Drag_Down_1,
+.Drag_Down_2,
+.Drag_Down_3,
+.Drag_Down_4,
+.Drag_Down_5,
+.Drag_Down_6{
+  display: none;
+    }
+    .Drag1_OP {
+      opacity: 0 !important;
+      transition: 1s ease-in-out;
+    }
+    .Drag_Down_1{
+      display: none;
+    }
+    .Drag_Down_2{
+      display: block !important;
+    }
+  
+      .Word_Section {
+      transform: translateY(0);
+      transition: 1s ease-in-out;
+  
+  
+    }
+  
+    .Looking {
+      transform: translatex(0);
+      transition: 1s ease-in-out;
+  
+  
+    }
+  
+    .Right_triangle {
+      transform: translate(1166.604px, 489.538px) translate(0, 0);
+      transition: 1s ease-in-out;
+  
+    }
+    .Services6_2_Text{
+      opacity: 1;
+      transform: translate(-17px, 899px)
+      translate(0, 0);
+   }
+  
+   .Services_6_2_Left_Rectangle{
+    transform: translate(-17px, 899px)
+    translate(0, 0);
+  
+   }
+   .Top_Images{
+              scale: 1;
+           }
+           .S6_3_Images{
+            scale: 1;
+           
+          }
+          .Star{
+            opacity: 1;
+            transform: translate(805px, 551px) ;
+            scale: 1;
+        }
+        .Media_Box {
+          transform: translate(0.525px ,1800px) translateX(0vw);
+        }
+        .Drage4_Left_Rectangel {
+          transform: translate(-7.833px ,1973.52px) translateX(0vw);
+          opacity: 1;
+          
+        }
+        .Drage4_Word {
+          transform: translate(224.526px, 2561px) translateY(0vw);
+        }
+        .S6_5_G{
+          scale: 1;
+         
+        }  
+      
+        .Path_15_2{
+          transform: translate(1150px ,270px)
+          rotate(-23deg) scale(.7);
+        }
+        .Mobile_image9{
+          transform: translateX(0vw);
+        }
+        
+   
+          .Footer{
+           position: relative;
+           bottom: 26vw;
+          }
+          .Path_15_2{
+            transform: translate(1150px ,270px)
+            rotate(-23deg) scale(.7);
+            transition: 2s ease-in-out;
+      
+          }
+          .Mobile_image9{
+            transform: translateX(0vw);
+            transition: 2s ease-in-out;
+      
+          }
+          .Content_S6_6{
+            transform: translateX(0vw);
+            transition: 2s ease-in-out;
+      
+          
+          }
+
+}
+}
+

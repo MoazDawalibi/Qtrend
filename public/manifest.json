@@ -1,0 +1,16 @@
+{
+    "name": "Qtrend_Design_Company",
+    "short_name": "Qtrend",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "black",
+    "background_color": "white",
+    "icons": [
+      {
+        "src": "../Logo_Qtrend.svg",
+        "sizes": "200x200",
+        "type": "image/svg+xml"
+      }
+    ]
+  }
+  

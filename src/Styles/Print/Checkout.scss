@@ -1,0 +1,362 @@
+.checkout_page{
+
+    background: #EDF1F4;
+    // min-height: 150vh;
+    // width: 100vw;
+    margin-top:-5px ;
+    border-top: 5px solid #c2c2c2;
+    padding-bottom: 10vh;
+    .checkout_body{
+        width: 80%;
+        background-color: white;
+        // min-height: 100vh;
+        margin: auto;
+        border-radius: 0 0 20px 20px;
+        // margin-bottom: 10vh;
+        .checkout_container{
+            width: 80%;
+            margin: auto;
+            height: fit-content;
+            padding-top: 7vh;
+            .location_page{
+                color: var(--Old-Gray, #A7A7A7);
+                /* Text Medium/Text Medium 3 */
+                font-family: Poppins;
+                font-size: 1em;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                cursor: pointer;
+                .My_Cart_span{
+                    color: var(--Old-Gray, #A7A7A7);
+                    cursor: pointer;
+                }
+                span{
+                    color:#9AB72B;
+                }
+            }
+            .header_page{
+                color: var(--Black, #383838);
+            /* Heading/Heading 3 */
+            font-family: Montserrat;
+            font-size: 2.5em;
+            font-style: normal;
+            margin: auto;
+            text-align: center;
+            font-weight: 700;
+            line-height: normal;
+            @include devices(mobile){
+                &{
+                    font-size: 2em !important;
+                }
+            }
+            }
+            .steps_pay{
+                width: 80%;
+                height: 20vh;   
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .first-level{
+                    display: flex;
+                    align-items: center;
+                    color: #D0D0D2;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    span{
+                        cursor: pointer;
+                    }
+                    .circle{
+                        width: 40px;
+                        height: 40px;
+                        margin-inline:10px ;
+                        border: 1px solid gray;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        
+                    }
+                }
+                .mid-level{
+                    width: 250px;
+                    height: 2px;
+                    margin-inline: 20px;
+                    background: #383838;
+
+                }
+                .last-level{
+                    display: flex;
+                    align-items: center;
+                    color: #D0D0D2;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    color: #B0D04F;
+
+                    .circle{
+                        width: 40px;
+                        height: 40px;
+                        margin-inline:10px ;
+                        border: 1px solid #B0D04F;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        
+                    }
+                }
+                @include devices(mobile){
+                    &{
+                      
+                        .first-level  , .last-level{
+                            font-size: .7em !important;
+                            
+                        }
+                        .circle{
+                            width: 30px !important ;
+                            height:30px !important;
+                        }
+                        .mid-level{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .checkout_form{
+                height: fit-content;
+                display: flex;
+                justify-content: space-between;
+                @include devices(tablet){
+                    &{
+                        
+                        flex-direction: column;
+                        .checkout_left_form{
+                            width: 100% !important;
+                            .div_mid_input{
+                                flex-direction: column !important;
+                                .input_mid_1 , .input_mid_2{
+                                    width: 100% !important;
+                                }
+                            }
+                        }
+                        .checkout_rigth_form{
+                            margin-top: 5vh;
+                            width: 100% !important;
+                            font-size: .6em !important;
+                            .header{
+                                font-size: 1.2em !important;
+                            }
+                        }
+                    }
+                }
+                .checkout_left_form{
+                    input{
+                        &:focus{
+                            padding-inline:3px;
+                        }
+                    }
+                    width: 63%;
+                    
+                    input{
+                    border-radius: 6.22px;
+                    border: 0.777px solid var(--Black, #383838);
+                    opacity: 0.5;
+                    width: 398.08px;
+                    height: 46.65px;
+                    font-size: 1.2em;
+                    width: 100%;
+                    }
+                    .input_top{
+                        label{
+                            
+                            color: var(--Black, #383838);
+                            font-family: Poppins;
+                            font-size: 13.995px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        input{
+                            border-radius: 0 !important;
+                            color: black;
+                            border-top: none;
+                            height: 0;
+                            border-left: none;
+                            border-right: none;
+                            margin-bottom: 10px;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                    }
+                    .div_mid_input{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom:20px;
+                        margin-top:20px ; 
+                       
+                        label{
+                            color: var(--Black, #383838);
+                            font-family: Poppins;
+                            font-size: 13.995px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .input_mid_1{
+                            width: 47%;
+                        }
+                        
+                        .input_mid_2{
+                            width: 47%;
+                        }
+                    }
+                    .input_bottom{
+                        label{
+                            color: var(--Black, #383838);
+                            text-align: center;
+                            font-family: Poppins;
+                            font-size: 13.995px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        input{
+                            height: 93.3px;
+
+                        }
+                    }
+                }
+                .checkout_rigth_form{
+                    border-radius: 6.22px;
+                    border: 0.777px solid  #383838;
+                    margin-bottom: 30px;
+                    height: fit-content;
+                    width: 33% ;
+                    background:  #FAFAFA;
+                    .header{
+                        color:black !important  ;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-align: center;
+                        margin-top: 20px;
+                        
+                        
+                    }
+                    .product_row_quantitiy_price{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 90%;
+                        margin: auto;
+                        font-size: .8em;
+                        padding: 15px;
+                    }
+                    .total_price_section{
+                        border-top: 1px solid black ;
+                        width: 100%;
+                        margin: auto;
+                    }
+                    .product_full_price{
+                        border-bottom: 1px solid black ;
+                        border-top: 1px solid black ;
+                        width: 90%;
+                        margin: auto;
+                        display: flex;
+                        margin-top: 10px;
+                        align-items: center;
+                        padding: 10px;
+                        margin-bottom: 30px;
+                        justify-content: space-between;
+                        .rigth{
+                            color: #B0D04F !important;
+                            font-family: Poppins;
+                            // font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            opacity: 1 !important;
+                        }
+
+                    }
+                    .submit_checkout{
+                        width: 90%;
+                        margin: auto;
+                        .header{
+                            color:  #383838;
+                            font-family: Poppins;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            text-align: left !important;
+                        }
+                        .cash_button{
+                            display: flex;
+                            width: 60%;
+                            color: #FAFAFA;
+                            color: var(--White, #FAFAFA);
+                            text-align: center;
+                            font-family: Poppins;
+                            font-size: .9em;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding: 10px;
+                            margin: auto;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 20px;
+                            border-radius: 6.22px;
+                            border: 0.777px solid var(--Black, #383838);
+                            background: var(--Black, #383838);
+                        }
+                        .checkout_button{
+                        display: flex;
+                        padding: 12.44px;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        cursor: pointer;
+                        flex-shrink: 0;
+                        width: 80%;
+                        border-radius: 6.22px;
+                        background: #C4FD14;
+                        margin: auto;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        color: #232323;
+                        font-family: BPoppins;
+                        font-size: 1.2em;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: normal;
+                        // text-transform: uppercase;
+                        }   
+                        .back_to_cart{
+                            text-align: center;
+                            color:#383838;
+                            font-family: Poppins;
+                            font-size: 11.995px;
+                            font-style: normal;
+                            font-weight: 500;
+                            cursor: pointer;
+                            margin-bottom: 20px;
+                            line-height: normal;
+                        }
+                    }
+                }
+              
+            }
+        }
+    }
+}
+

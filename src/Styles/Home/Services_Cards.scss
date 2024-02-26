@@ -1,0 +1,326 @@
+.Services_Cards {
+    display: flex;
+    height: 18vw;
+    width: 19vw;
+    .Main_Card {   position: relative;}
+    .Card_2,.Card_1 {
+        position: absolute;
+        height: 17vw;
+        width: 19vw;
+        border-radius: 2vw;
+        cursor: pointer;
+        transition: .4s ease-in-out;
+        box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+        display: flex; align-items: center;
+        img {
+            display: none;  width: 11vw;
+        }
+    }
+    .Card_1_Hovered {
+        transform: translateY(-19vw);
+        height: 23vw;
+        box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+        transition: .4s ease-in-out;
+        @include Flex ;
+        img {
+            display: block;
+            width: fit-content;
+            max-width: 13vw;
+            // display: none;
+            max-height: 16vw;
+        }
+    }
+}
+
+.Key_1,.Key_3,.Key_5 {
+.Card_1 { background-color: #BBE76B !important;}
+.Card_2 { background-color: white !important;}}
+.Key_2,.Key_4,.Key_6 {
+.Card_1 { background-color: white !important;}
+.Card_2 {background-color: #BBE76B !important;}}
+
+.Services_Cards {
+    h1 {
+        color: #3E4349;
+        text-shadow: 8px 13px 7px 0px rgba(0, 0, 0, 0.2);
+        // font-family: Poppins;
+        font-size: 6vw;
+        font-style: normal;
+        font-weight: 900;
+   
+    }
+
+    .Card_2_Top {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 1.8vw;
+
+    }
+
+    .Card_2_Top_Word {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        h2 {
+
+            color: #3E4349;
+            text-shadow: 8px 13px 7px 0px rgba(0, 0, 0, 0.2);
+            // font-family: Poppins;
+            font-size:2vw;
+            font-style: normal;
+            font-weight: 900;
+            line-height:2.2vw; /* 135.782% */
+            letter-spacing: -.1vw;
+
+        }
+
+        h3 {
+            color: #3E4349;
+            // font-family: Poppins;
+            font-size: 3.1vw;
+            font-style: normal;
+            font-weight: 900;
+            line-height:2.2vw;
+            letter-spacing: -.1vw;
+
+
+        }
+    }
+
+    .Key_4,
+    .Key_5 {
+
+        h3,
+        h2,
+        h1 {
+            text-shadow: 1vw 1vw .5vw #0000003d;
+
+
+        }
+
+    }
+
+    .Key_2 {
+        .Card_2_Top_Word {
+            h2{
+                font-size: 2.7vw;
+
+            }
+            h3 {
+                font-size: 2.4vw;
+
+
+            }
+        }
+    }
+
+    .Key_5 {
+        .Card_2_Top_Word {
+            h2 {
+                font-size: 1.8vw;
+
+            }
+
+            h3 {
+                font-size: 2.1vw;
+                line-height: 14.176px;
+
+            }
+        }
+    }
+    .Key_6 {
+        h1{
+            padding-left: 1vw;
+        }
+        .Card_2_Top_Word {
+           
+            h2 {
+                font-size: 1vw;
+                line-height:1vw; 
+                text-align: left;
+                // display: none;
+              
+            }
+            h3{
+                font-size: 2.8vw;
+                line-height: 2.7vw;
+            }
+
+          
+        }
+    }
+}
+
+.Card_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Card_2_Down {
+    width: 100%;
+    text-align: end;
+    margin-bottom: 1vw;
+    margin-right: 2.5vw;
+
+    button {
+        background-color: #312C2C;
+        color: white;
+        outline: none;
+        height: 3.3vw;
+        width: 10vw;
+        border-radius: 3vw;
+        font-size: 1vw;
+        letter-spacing: .1vw;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        z-index: 88;
+        box-shadow: .5vw .0vw 0vw .1vw #D9D9D9;
+    }
+}
+
+@include devices(Taplet) {
+    .Services_Cards {
+        max-height: 12vw;
+        width: 16vw;
+
+        h1 {
+            font-size: 4vw !important;
+        }
+        h2{
+            font-size: 1.5vw !important;
+
+        }
+        h3{
+            font-size: 1.7vw !important;
+            transform: translateY(-.3vw) !important;
+
+        }
+
+        .Key_2 h3 {
+            font-size: 1.7vw !important;
+        }
+
+        .Key_5 {
+            h2 {
+                font-size: 1.4vw !important;
+            }
+
+            h3 {
+                font-size: 1.5vw !important;
+            }
+        }
+    
+
+    .Card_2 {
+
+        max-height: 12vw;
+        width: 16vw;
+
+    }
+
+    .Card_1 {
+
+        max-height: 12vw;
+        width: 14vw;
+
+        img {
+            width: 8vw;
+
+        }
+
+    }
+
+    .Card_1_Hovered {
+        transform: translateY(-11vw);
+        height: 25vw;
+
+        img {
+
+            max-width: 13vw;
+        }
+    }
+}
+
+}
+.ar{
+ .Services_Cards{
+    .Card_2_Top{
+        direction: rtl;
+        gap: .4vw;
+        padding-top: 3vw;
+
+        h2{
+            font-size: 3vw;
+        }
+       h3{
+        font-size: 4vw;
+        line-height: 4vw;
+       }
+    }
+    .Key_6 {
+        h1{
+            padding-right: 1.4vw;
+        }
+           
+            h2 {
+                font-size: 1vw;
+                word-wrap: break-word;
+                line-height:1vw;
+                max-width: 80%; 
+                letter-spacing: 0;
+                text-align: start;
+              
+              
+            }
+            h3{
+                font-size:4vw;
+                line-height: 4vw;
+            } 
+    }
+    .Key_5 {
+        h1{
+            padding-right: 1.4vw;
+        }
+           
+            h2 {
+                font-size: 1.6vw;
+                max-width: 100%; 
+                letter-spacing: 0;
+                text-align: start;
+
+              
+              
+            }
+            h3{
+                font-size:4vw;
+                line-height: 3vw;
+            } 
+    }
+ }   
+}
+
+
+.ar{
+    .Services_Cards{
+        
+        .moazmoaz{
+            h2{
+                font-size: 3vw !important; 
+                line-height: 2.7vw !important;  
+            }
+            h3{
+                font-size: 1.5vw !important;
+                line-height:1.5vw !important; 
+                text-align: left !important;
+                padding-left: 2.5vw;
+                letter-spacing: .01vw !important;
+
+            }
+        }
+    }
+}

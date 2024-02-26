@@ -1,0 +1,91 @@
+.Home2{
+    margin-bottom: 5vw;
+.Services_Social{
+    position: absolute;
+    left: 35vw;
+    // background: red;
+    padding-top: 1vw;
+    max-width: 100%;
+    transform: translateY(74vw);
+    display: flex;
+    .Services_MIcon{
+
+    padding: .4vw;
+    background-color: #C7F36C;
+    color: white;
+    border: .5vw solid black;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+    rotate: 130px;   
+    transform: rotate(60deg);
+    display: flex; justify-content: center; align-items: center;
+    &:hover{
+        background-color: black;
+        color: #C7F36C;
+        border: .5vw solid black;
+        transform: rotate(0deg);
+
+
+        svg{
+            transform: rotate(-0deg) !important;
+    
+           
+}
+}
+}
+a{
+    border-radius: 50%;
+    background: black;
+    display: flex;justify-content: center; align-items: center;
+    padding:1vw;
+
+    
+}
+svg{
+    transform: rotate(-60deg);
+    font-size: 3vw;
+
+  
+}
+
+
+}
+@include devices(tablet){
+       
+    .Services_Social{
+        // padding: -0.5vw;
+        padding: 0 
+    }
+ 
+}
+}
+.MIcon2,.MIcon4,.MIcon6{
+    .Services_MIcon{
+        &:hover{
+            background-color: black;
+            color: black;
+            border: .5vw solid black;
+        
+        }
+    }
+
+    a{
+        background: #C7F36C !important;
+      
+        &:hover{
+            background: black !important;
+            color: #C7F36C;
+        
+        }
+    }
+}
+.ar{
+    .Home2{
+        .Services_MIcon{
+            margin-top: 3vw;
+        }
+    }
+}

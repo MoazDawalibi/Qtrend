@@ -1,0 +1,133 @@
+.Home4{
+    max-width: 100vw;
+    position: relative;
+    width: 100vw;
+    
+    .Home4_BG_Image{
+        max-width: 100vw;
+        width: 100%;
+        position: absolute;
+    }
+    .Home4_Top{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5vw;
+        align-items: flex-start;
+        height: 20vw;
+        // svg{
+        //     width: 40vw;
+        //     transform: translateY(-10vw);
+        //     z-index: 1;
+        // }
+        h1{
+            font-size: 4.4vw;
+            white-space: nowrap;
+
+        }
+    }
+    .Home4_Down{
+        width: 100%;
+        display: flex; justify-content: space-between;
+    }
+    .Home4_Down_Right{
+        margin-right: 3vw;
+        
+        .ImageContainer {
+            display: flex;
+            gap: 15px;
+            width: 50vw;
+            height: 20vw;
+          }
+        img{
+            height: 100%;
+            flex: 1;
+            z-index: 99;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all .5s;
+            &:hover{
+                flex: 3;
+                z-index: 999;
+                margin-inline: 1vw;
+               
+          
+            }
+        }
+    }
+    .Home4_Down_Right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .Rectangle{
+        width: 20vw;
+    }
+    .Home4_Text{
+    margin-top: 2vw;
+        width: 55%;
+        h3{
+            font-size: 2vw;
+            font-weight: bold;
+        }
+        p{
+            font-size: 1.3vw;
+            line-height: 1.7vw;
+            margin-right: 1vw;
+            margin-top:     1vw;
+
+        }
+    }
+      
+.Home4_IbraDonkey{
+    position: absolute;
+    top: 10vw;
+    width: 45vw;
+}
+.Ibrahem{
+    position: absolute;
+    top: 8vw;
+    width: 45vw;
+    height: 60vw;
+}
+  
+  
+.LogoAnimation{
+    width: 35vw;
+    height: 28vw;
+    padding-right: 2vw;
+    transform: translateY(-3vw);
+    z-index: 1;
+
+}
+.Ibra_helmets2,.Logo_Animation2{
+    opacity: 0;
+    animation: Ibra_Is_Trash2 6s infinite;
+    transition: 1s ease-in-out;
+
+}
+  
+    
+}
+
+  
+
+
+
+@keyframes Ibra_Is_Trash2 {
+    0%   {opacity: 0;}
+  20%  {opacity: 1;}
+  80%  {opacity: 1;}
+  100% {opacity: 0;}
+    
+  }
+  
+
+  .ar{
+    .Home4{
+        .Home4_Top{
+            h1{
+                font-family: BNoor !important;
+            }
+        }
+    }
+  }

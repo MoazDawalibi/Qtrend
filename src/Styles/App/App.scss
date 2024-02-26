@@ -1,0 +1,247 @@
+
+@font-face {
+  font-family: Inter;
+  src: url('../../Utils/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+  // font-display: swap;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('../../Utils/Fonts/Roboto-Bold.ttf');
+  // font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('../../Utils/Fonts/Poppins-Regular.ttf');
+  // font-display: swap;
+
+}
+
+@font-face {
+  font-family: BPoppins;
+  src: url('../../Utils/Fonts/Poppins-SemiBold.ttf');
+  // font-display: swap;
+
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('../../Utils/Fonts/Montserrat-VariableFont_wght.ttf');
+  // font-display: swap;
+
+}
+@font-face {
+  font-family: Noor;
+  src: url('../../Utils/Fonts/Noor\ Regular.ttf');
+  font-weight: bold;
+  // font-display: swap;
+
+}
+@font-face {
+  font-family: BNoor;
+  src: url('../../Utils/Fonts/Noor\ Bold.ttf');
+  font-weight: bold;
+  // font-display: swap;
+
+}
+
+@font-face {
+  font-family: BTajwal;
+  src: url('../../Utils/Fonts/Tajawal-Bold.ttf');
+  font-weight: bold;
+  // font-display: swap;
+
+}
+@font-face {
+  
+  font-family: 'BPoppins';
+  // font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    background-color: var(--bg);
+    overflow-x: hidden;
+    font-family: Inter;
+    font-display: swap;
+
+
+
+  }
+  
+  .ar{
+    font-family: Noor !important;
+    
+  }
+*{
+    padding: 0; margin: 0; 
+    transition: .5s ease-in-out;
+    
+
+}
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+button,svg{
+    cursor: pointer;
+}
+.MeetUs_BG{
+    position: absolute;
+}
+.gradient_1{
+    position: absolute;
+    bottom: 0;
+}
+@mixin devices ($breakpoint) {
+  @if $breakpoint == LargLaptop {
+    @media only screen and (max-width: 2440px) {
+      @content;
+    }
+  }
+    @if $breakpoint == Laptop {
+      @media only screen and (max-width: 1440px) {
+        @content;
+      }
+    }
+
+    @if $breakpoint == Minlaptop {
+      @media only screen and (max-width: 1000px) {
+        @content;
+      }
+    }
+    
+      @if $breakpoint == tablet {    
+      @media only screen and (max-width: 875px) {
+        @content;
+      }
+    }
+    @if $breakpoint == donkey {    
+      @media only screen and (max-width: 799px) {
+        @content;
+      }
+    }
+   
+    @if $breakpoint == FORPRODUCT {
+      @media only screen and (max-width: 760px) {
+        @content;
+      }}
+    @if $breakpoint == mobile {
+      @media only screen and (max-width: 700px) {
+        @content;
+      }}
+      @if $breakpoint == S_mobile {
+        @media only screen and (max-width: 590px) {
+          @content;
+        }
+      
+    }
+    
+    @if $breakpoint == SS_mobile {
+      @media only screen and (max-width: 450px) {
+        @content;
+      }
+    
+  }
+  @if $breakpoint == NO_WAY {
+    @media only screen and (max-width: 350px) {
+      @content;
+    }
+  
+}
+    @if $breakpoint == XS_mobile {
+      @media only screen and (max-width: 300px) {
+        @content;
+      }
+    
+  }
+  @if $breakpoint == XXS_mobile {
+    @media only screen and (max-width: 200px) {
+      @content;
+    }
+  
+}
+    @if $breakpoint == frshan {
+      @media only screen and (max-width: 400px) {
+        @content;
+      }
+    
+  }
+  @if $breakpoint == BreakPoints {
+    @media only screen and (max-width: 500px) {
+      @content;
+    }
+  
+}
+  }
+
+  .Yallow{
+    // display: none !important;
+    position: absolute;
+    transform: translate(52.4vw,23.3vw);
+    width: 12.5vw;
+    z-index: 9999999999999;
+}
+@keyframes Ibra_Is_Trash {
+  0%   {opacity: 0;}
+  25%  {opacity: 0;}
+  50%  {opacity: 0;}
+  75%  {opacity: 0;}
+  85%  {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@mixin Flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes Face_Animation {
+    
+  0%   {  scale: 1;}
+  100%   {  scale: .7;}
+
+
+  
+}
+@keyframes Arrow2 {
+  0%   {opacity: 1;}
+  25%  {opacity: 0.4;}
+  50%  {opacity: 0.6;}
+  75%  {opacity: 0.8;}
+  100% {opacity: 1;}
+}
+
+
+.card_App{
+  position: relative;
+  .text_card{
+      position: absolute;
+      font-size: 14px;
+      top: 65%;
+      left: 17%;
+      color: white;
+      width: 140px;
+  }
+}
+
+input {
+   padding-inline:10px !important;
+   transition: 0 !important;
+}
+
+.error_message{
+
+ 
+}
+
+
+.flex-column{
+  flex-direction: column !important;
+}

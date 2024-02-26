@@ -1,0 +1,179 @@
+.Services_Pages{
+    
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: 150vw;
+    .Footer{
+        position: absolute;
+        bottom: 0;
+        // transform: translateY(1vw);
+        // padding-top: 1.5vw;
+    }
+    .NavBar{
+        .Links{
+            a:nth-child(2){
+                color: #C7F36C ;
+            }
+        }
+    }
+}
+.FirstService_page{
+    max-width: 100vw;
+    position: relative;
+    // background: #BAC3C7;
+    
+}
+.FirstService_Body{ 
+    position: absolute;
+    z-index: 99999999;
+    top: 0;
+    padding-top: 42vw;
+    width: 100%;
+    .Services1_Elements{
+        width: 100%;
+        display: flex; justify-content: space-between; align-items: center;
+        .Element1{
+            padding-left: 5vw;
+        }
+        .Element2{
+
+            padding-right: 2vw;
+        }
+       
+    }
+    img{
+        width: 23vw;
+        cursor: pointer;
+    }
+}
+
+.FirstService_Images{
+    position: relative;
+    background: #BAC3C7;
+    width: 100%;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+
+
+
+   img{
+    display: block;
+   }
+
+   .Hajeat_Moaz{
+    padding-top: 4vw;
+    transition: .5s ease-in-out;
+    width: 60vw;
+    height: 45vw;
+    z-index: 0;
+   }
+   .Haje{
+    float: right;
+   width: 40vw;
+   transform: translate(0vw,-16vw) !important;
+   transition: .5s ease-in-out; 
+   display: block;  
+   align-self: flex-end;
+   }
+}
+
+.Services_Pages{
+    position: relative;
+          background: #BAC3C7;
+          min-height: 100vh;
+}
+.Group_Logo { 
+
+    transform: translate(81.914px, -367.625px) 
+                translate(12vw, .4vw);
+                transition: .5s ease-in-out;
+
+  }
+ 
+  
+.Wing{
+    transform: translate(-448px, -1018px) 
+    translate(260vw, 0vw);
+    transition: .5s ease-in-out;
+
+}
+
+.Element1,.Element3,.Element2{
+    cursor: pointer;
+}
+
+
+
+
+.FirstService_Body{ 
+    .FirstService_text{
+        margin-top: 2vw;
+        width: 60vw;
+        .title{
+            color: #000;
+            text-align: center;
+            // font-family: Roboto;
+            font-size: 2.5vw;
+            font-weight: 700;
+        }
+        .description{
+            color: #666;
+            text-align: center;
+            // font-family: Inter;
+            font-size: 1.2vw;
+            font-weight: 400;
+            line-height: 1.7vw;
+            width: 56vw;
+            margin-left: 3vw;
+
+        }
+    }
+
+        .FirstService_p{
+            color: #777;
+            // font-family: Inter;
+            font-size: 1.7vw;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: .7vw;
+            text-transform: uppercase;
+            margin-left: 7vw;
+        }
+   
+ 
+}
+
+
+
+
+
+.Element2{
+z-index: 99999;
+}
+.Element1{
+z-index: 9999;
+}
+.Element3{
+    z-index: 999999;
+}
+.Logo_Big{
+    transform: translate(236px, 221px) 
+    translate(12vw, .4vw);
+    transition: .5s ease-in-out;
+  }
+.Feather_wing{
+    transform: translate(185px, 82px) 
+    translate(460vw, 0vw);
+    transition: .5s ease-in-out;
+}
+.Hajeat{
+    transition: .5s ease-in-out;
+    width: 60vw;
+    height: 50vw;
+   }
+   .Womans{
+    mix-blend-mode: luminosity;
+
+   }
+   

@@ -1,0 +1,42 @@
+.PrintLastSection{
+    width: 100vw;
+    min-height: 110vh;
+    background: #EDF1F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .Text{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 65vw;
+        margin-top: 60px;
+        .title{
+            color: #000;
+            // font-family: Poppins;
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .description, .description2{
+            color: #000;
+            // font-family: Poppins;
+            font-size: 17px;
+            font-weight: 500;
+            margin-left: 2px;
+            width: 64vw ;
+        }
+        .description{
+            margin-bottom: 25px;
+        }
+    }
+    .image_container{
+        margin-top: 3em;
+       .AllSquare{
+        width: 86%;
+        margin: auto;
+        display: block;
+       }
+    }
+}

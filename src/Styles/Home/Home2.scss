@@ -1,0 +1,112 @@
+.Home23_BG {
+    max-width: 100vw;
+    width: 100vw;
+    height: 148vw;
+}
+
+.Home2_Contain {
+    position: absolute;
+    top: 7.7vw;
+    width: 100vw;
+}
+
+.Home2 {
+
+    .Home2_Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.ar{
+    *{
+
+        letter-spacing:0 !important ;
+    }
+    .Home2_Text{
+        h2{
+            letter-spacing:0 !important ;
+        }
+    }
+}
+.Home2 {
+    .Home2_Text {
+       
+        .Home2_Text_h1 {
+            text-align: center;
+            margin-bottom: 1.2vw;
+        }
+
+        h2 {
+            color: #777;
+            text-align: center;
+            font-family: Inter;
+            font-size: 1.7vw;
+         
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 10.4px;
+            text-transform: uppercase;
+            margin-bottom: 2VW;
+            padding-left: 2VW;
+        }
+
+        h1 {
+            color: #000;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 2.5vw;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p {
+            color: #666;
+            text-align: center;
+            font-family: Inter;
+            font-size: 1.2vw;
+         
+            font-weight: 400;
+            line-height: 150%;
+            /* 27px */
+            width: 50%;
+            margin-bottom: 1vw;
+        }
+    }
+}
+
+.Home2 {
+
+
+    .btn {
+   
+        flex-shrink: 0;
+    
+
+        border-radius: 50vw;
+        background: #3FB4C3;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        font-size: 1.1vw;
+        color: white;
+        text-transform: uppercase;
+        color: #FFF;
+        font-family: Inter;
+     
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: .2vw;
+        text-transform: uppercase;
+        width: 14vw;
+        height: 4.4vw;
+        
+    }
+}
+.Face_Animation{
+    transform-origin: 97% 70%;
+    animation: Face_Animation 2s infinite;
+
+  }
+  
+  

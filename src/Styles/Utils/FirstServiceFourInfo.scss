@@ -1,0 +1,112 @@
+    .ar{
+
+        .FirstService_info{
+            .FirstServiceFourInfo_First ,.FirstServiceFourInfo_Second{
+                h6{
+                    font-family: BNoor !important;
+                }
+                h5{
+                    font-family: Noor !important;
+                }
+            } 
+        }
+    }
+    .FirstService_info{
+        width: 100%;
+        .FirstServiceFourInfo_First{
+            display: flex;
+            align-items: center;
+            margin-top: 1vw ;
+            margin-left: 15vw;
+            font-family: Popping;
+            
+            div{
+                background: #D9D9D9;
+                width: 24vw;
+                min-height: 11vw;  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 1vw;
+                border-radius:1vw ;
+                margin-left: 1vw;
+                h6{
+                    width: 18vw;
+                    height: 5.5vw;
+                    background: #C7F36C;
+                    color: #000;
+                    // font-family: Poppins;
+                    font-size: 2.2vw;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-family: Poppins;
+                    letter-spacing: -.1vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -1vw;
+                    border-radius: 0 0 2.5vw 2.5vw;
+                    margin-bottom:.3vw ;
+                }
+                h5{
+                    min-height: 7vw;
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: .9vw;
+                    font-style: normal;
+                    // font-family: Popping;
+                   
+                    font-weight: 700;
+                    line-height:1.3vw;
+                }
+
+            }
+        }
+        .FirstServiceFourInfo_Second{
+            display: flex;
+            align-items: center;
+            margin-left:3vw;
+            
+            
+            div{
+                background: #D9D9D9;
+                width: 32vw;
+                height: 11vw;  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 1vw;
+                border-radius:1vw ;
+                margin-left: 1vw;
+                margin-top: 1vw;
+                h6{
+                    width: 25vw;
+                    height: 5.5vw;
+                    background: #C7F36C;
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 2.2vw;
+                    font-style: normal;
+                    font-weight: 900;
+                    letter-spacing: -.1vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -1vw;
+                    border-radius: 0 0 2.5vw 2.5vw;
+                    margin-bottom:.7vw ;                         
+                }
+                h5{
+                    height: 7vw;
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: .9vw;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height:1.3vw;
+                }
+            }
+        }
+    }
