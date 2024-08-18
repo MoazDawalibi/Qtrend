@@ -157,13 +157,13 @@ const SingleProduct = () => {
 
                             <div className='mid_left_section'>
                                 <div className='more_img'>
-                                    <img src={BaseURLImage + data?.images[0]?.path} alt='more_img' />
-                                    <img src={BaseURLImage + data?.images[0]?.path} alt='more_img' />
-                                    <img src={BaseURLImage + data?.images[0]?.path} alt='more_img' />
-                                    <img src={BaseURLImage + data?.images[0]?.path} alt='more_img' />
+                                    <img src={'../Print/Rectangle 9629.png'}/>
+                                    <img src={'../Print/Rectangle 9629.png'}/>
+                                    <img src={'../Print/Rectangle 9629.png'}/>
+                                    <img src={'../Print/Rectangle 9629.png'}/>
                                 </div>
                                 <div className='main_img'>
-                                    <img src={BaseURLImage + data?.product_main_image}
+                                    <img src={'../Print/Rectangle 9629.png'}
                                         // {BaseURL + product.image}
                                         alt='more_img' />
                                 </div>

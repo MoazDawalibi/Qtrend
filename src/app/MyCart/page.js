@@ -30,7 +30,7 @@ const MyCart = () => {
     <EmptyCart/>
     )
   }
-console.log(MyCart);
+// console.log(item);
 
   return (
     <div className='main_page'>
@@ -71,19 +71,20 @@ console.log(MyCart);
           {/* Edit product */}
           <div className='product_cart_container'>
           {
-            MyCart?.map(item =>(
+            MyCart?.map(item =>
+              (
               <>
             <div className='edit_product' key={item?.id}>
             <span className='span1'></span>
             <div className='sec'>
               <div className='left_sec'>
                 <div className='left_left'>
-                  <img src={BaseURL + item.image} alt='Product Image' />
+                  <img src={'/Print/Rectangle 9629.png'} alt='Product Image' />
                 </div>
                 <div className='right_left'>
                   <p className='right_left_first'>{item?.name}</p>
                   <p className='right_left_second'>{t("Quantity")}: {item?.quantity}</p>
-                  <p className='right_left_third'>{item?.price} Qr</p>
+                  <p className='right_left_third'>{item?.quantity * 120} Qr</p>
                 </div>
               </div>
               <div className='right_sec'  onClick={()=>{
@@ -104,7 +105,8 @@ console.log(MyCart);
             <p className='summary_title'>{t("Summary")}</p>
             <div className='summary_total'>
               <p className='total'>{t("Total")}</p>
-              <p className='price'>{getTotalPrice(MyCart)} Qr</p>
+              {/* <p className='price'>{getTotalPrice(MyCart)} Qr</p> */}
+              <p className='price'>{1 * 120} Qr</p>
             </div>
             {/* Checkout and Continue Shopping buttons */}
             <button className='Checkout_button' onClick={() => route.push('/Checkout')}>{t("Checkout")}</button>

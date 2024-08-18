@@ -3,11 +3,16 @@
     height:100vh;
     background: rgba(25, 149, 202, 0.80);
     display: flex;align-items: center;
+    justify-content: space-around;
     //  justify-content: center;
     .product_swiper{
         display: flex;
         //  align-items: center;justify-content: space-around ;
-        width: 50vw;
+        .product_swiper_container{
+            overflow: initial !important;
+            display: flex !important; 
+        }
+        width: 50%;
         .img_container{
 
             display: flex;
@@ -20,11 +25,10 @@
             }
             
         }
-    //    .ProductCard{
-    //     // height: 10vh;
-    //     width: 15vw;
-    //     margin-inline: 1.7em;
-    //    }
+       .ProductCard{
+        display: flex;
+        width: 80% !important;
+       }
     }
 }
 

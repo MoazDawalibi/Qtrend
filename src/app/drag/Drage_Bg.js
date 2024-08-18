@@ -714,14 +714,24 @@ const Drage_Bg = ({data}) => {
           id="Rectangle_9586-3"
           data-name="Rectangle 9586"
           clipPath="url(#clip-path)"
+          xlinkHref='../Drag/Artboard - 2-image4.webp'
+          
         >
-          <rect
+          <image
+            id="influencer-phone-happy-woman-social-media-live-streaming-recording-online-blog-content-creator-press-beautiful-girl-taking-selfie-mobile-app-with-ring"
+            width={519}
+            height="374.306"
+            transform="translate(870 92)"
+            xlinkHref='../Drag/Artboard - 2-image4.webp'
+          />
+          {/* <rect
             id="influencer-phone-happy-woman-social-media-live-streaming-recording-online-blog-content-creator-press-beautiful-girl-taking-selfie-mobile-app-with-ring"
             width={519}
             height="374.306"
             transform="translate(870 92)"
             fill="url(#patternDrage_Bg-3)"
-          />
+            xlinkHref='../Drag/Artboard - 2-image4.webp'
+          /> */}
         </g>
       </g>
       <g transform="matrix(1, 0, 0, 1, 17, -899)" filter="url(#Maria)">
@@ -748,12 +758,12 @@ const Drage_Bg = ({data}) => {
           data-name="Rectangle 9585"
           clipPath="url(#clip-path-2)"
         >
-          <rect
+          <image
             id="hello-subs-portrait-attractive-hipster-woman-with-fancy-red-hair-waving-hand-saying-hi-while-streaming-mobile-phone-online-blogging-communication-stud"
             width="607.959"
             height={405}
             transform="translate(405 101)"
-            fill="url(#patternDrage_Bg-4)"
+            xlinkHref='../Drag/Artboard - 2-image3.webp'
           />
         </g>
       </g>
@@ -781,13 +791,13 @@ const Drage_Bg = ({data}) => {
           data-name="Rectangle 9584"
           clipPath="url(#clip-path-3)"
         >
-          <rect
+          <image
             id="modern-muslim-woman-hijab-office-room_1"
             data-name="modern-muslim-woman-hijab-office-room 1"
             width={796}
             height={531}
             transform="translate(-174 65)"
-            fill="url(#patternDrage_Bg-5)"
+            xlinkHref='../Drag/Artboard - 2-image2.webp'
           />
         </g>
       </g>
@@ -840,6 +850,14 @@ const Drage_Bg = ({data}) => {
               transform="translate(814.659 144)"
               fill="url(#patternDrage_Bg-6)"
             />
+            <image
+              id="side-view-business-man-city_1"
+              data-name="side-view-business-man-city 1"
+              width="540.447"
+              height="360.837"
+              transform="translate(814.659 144)"
+            xlinkHref='../Drag/Artboard - 2-image5.webp'
+          />
           </g>
         </g>
         <g transform="matrix(1, 0, 0, 1, -0.53, -1800)" filter="url(#Saad)">
@@ -862,14 +880,14 @@ const Drage_Bg = ({data}) => {
       <g id="Ahmed-2" data-name="Ahmed">
         <g id="Ahmed_G">
           <g id="Ahmed_R" clipPath="url(#clip-path-5)">
-            <rect
-              id="young-arab-man-wearing-typical-arab-clothes-isolated-white-who-feels-confident-crossing-arms-with-determination_1"
-              data-name="young-arab-man-wearing-typical-arab-clothes-isolated-white-who-feels-confident-crossing-arms-with-determination 1"
-              width="590.608"
-              height="394.008"
-              transform="matrix(-1, 0.017, -0.017, -1, 1040.668, 525.967)"
-              fill="url(#patternDrage_Bg-7)"
-            />
+            <image
+              id="side-view-business-man-city_1"
+              data-name="side-view-business-man-city 1"
+              width="540.447"
+              height="360.837"
+              transform="translate(434.659 144)"
+            xlinkHref='../Drag/Artboard - 2-image6.webp'
+          />
           </g>
         </g>
         <g transform="matrix(1, 0, 0, 1, -0.53, -1800)" filter="url(#Ahmed)">
@@ -892,14 +910,14 @@ const Drage_Bg = ({data}) => {
       <g id="Ali-2" data-name="Ali">
         <g id="Ali_G">
           <g id="Ali_R" clipPath="url(#clip-path-6)">
-            <rect
+            <image
               id="portrait-attractive-arab-man_1"
               data-name="portrait-attractive-arab-man 1"
               width="422.325"
               height="336.566"
               transform="translate(149.618 138.337)"
-              fill="url(#patternDrage_Bg-8)"
-            />
+            xlinkHref='../Drag/Artboard - 2-image7.webp'
+          />
           </g>
         </g>
         <g transform="matrix(1, 0, 0, 1, -0.53, -1800)" filter="url(#Ali)">

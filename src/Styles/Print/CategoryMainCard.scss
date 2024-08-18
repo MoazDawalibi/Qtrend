@@ -55,6 +55,7 @@
         display: flex; 
         .product_card{
           margin-inline:15px !important ;
+          // width: 50vw !important;
         }
         &{
           @include devices(mobile){

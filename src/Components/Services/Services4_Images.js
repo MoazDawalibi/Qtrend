@@ -7,7 +7,7 @@ import Arrow from './Arrow';
 import { BaseURLImage } from '../../api/config';
 
 const Services4_Images = ({ Word, Data=[] }) => {
-  
+    
 
   return (
     <div className='Services4_Images'>
@@ -21,7 +21,7 @@ const Services4_Images = ({ Word, Data=[] }) => {
             Data?.map((img) => (
               <>
                 <SwiperSlide>
-                  <img src={BaseURLImage + img?.path} alt='' className='Swiper_image1' />
+                  <img src={img?.img} alt='' className='Swiper_image1' />
                   
                 </SwiperSlide>
               </>

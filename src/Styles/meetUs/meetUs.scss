@@ -53,15 +53,19 @@
         padding-top: 55vw;
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 6vw;
-
+        .MeetUs_mid_section_left{
+            // display: flex !important;align-items: center !important;justify-content: center !important;
+            // display: none !important;
+        }
         .MeetUs_info {
             display: flex;
-            align-items: center;
-            width: 60%;
-            margin-top: 3.7vw;
             text-align: center;
-
+            align-items: center;
+            text-align: center;
+            margin-top: 3.7vw;
+            padding-left: 2vw;
             .MeetUs_info_1,
             .MeetUs_info_2,
             .MeetUs_info_3 {
@@ -105,11 +109,11 @@
         .MeetUs_mid_section_left {
             display: flex;
             align-items: center;
+            text-align: center;
             flex-direction: column;
             transform: translateY(-5vw);
-            margin-left: 1vw;
+            // margin-left: 1vw;
             line-height: 2.7vw;
-            text-align: center;
 
             h2,
             h3 {
@@ -316,43 +320,7 @@
 }
 
 .MeetUs {
-    @include devices(BreakPoints) {
-        min-height: 100vh;
-
-        .MeetUs_mid_section {
-            flex-direction: column;
-            padding-top: 65vw !important;
-
-
-        }
-
-        .MeetUs_mid_section_left {
-            margin-bottom: 12vw;
-        }
-
-        .MeetUs_mid_section_right {
-            @include Flex;
-            padding-right: 0 !important;
-            flex-direction: column;
-        }
-
-        .Geadian {
-
-            height: 197.2vw;
-
-        }
-
-        .ar {
-
-            .MeetUs_info_1,
-            .MeetUs_info_2,
-            .MeetUs_info_3 {
-                transform: translateX(7vw);
-            }
-        }
-
-    }
-
+    
     @media screen and (max-width: 450px) and (min-height: 700px){
         background-color: black;
         min-height: 100vh;
@@ -364,8 +332,16 @@
         }
         .MeetUs_mid_section {
             padding-top: 72vw !important;
-    
-    
+        }
+        .MeetUs_mid_section_right {
+            .feild_input{
+                width: 23vw !important;
+            }
+        }
+        .MeetUs_info{
+            // display: flex;align-items: start !important;justify-content: start !important;
+            padding-left: 0px !important;
+            margin-left: -40px !important;
         }
         .MeetUs_info_1,
         .MeetUs_info_2,
@@ -377,6 +353,45 @@
             bottom: 0;
         }
     }
+    @include devices(BreakPoints) {
+        min-height: 100vh;
+    
+        .MeetUs_mid_section {
+            flex-direction: column;
+            padding-top: 65vw !important;
+    
+    
+        }
+    
+        .MeetUs_mid_section_left {
+            margin-bottom: 12vw;
+        }
+    
+        .MeetUs_mid_section_right {
+            @include Flex;
+            padding-right: 0 !important;
+            flex-direction: column;
+            .feild_input{
+                width: 22vw !important;
+            }
+        }
+    
+        .Geadian {
+    
+            height: 197.2vw;
+    
+        }
+    
+        .ar {
+    
+            .MeetUs_info_1,
+            .MeetUs_info_2,
+            .MeetUs_info_3 {
+                transform: translateX(7vw);
+            }
+        }
+    
+    }
 
     
 
@@ -384,7 +399,7 @@
     @media screen and (max-width: 370px) {
         background-color: black;
         height: 100vh !important;
-
+        
         .Footer {
             position: absolute;
             bottom: 0;

@@ -122,9 +122,9 @@ const MeetUs = () => {
                 {({ errors, setFieldValue }) => (
 
           <Form className='MeetUs_mid_section_right'>
-            <Field type='text'  placeholder={t('Company Name')} name='companyName' />
-            <Field type='email' placeholder={t('Email')} name='email'/>
-            <Field type='text' placeholder={t('phone_number')} name='phoneNumber' autoComplete='on' />
+            <Field className="feild_input" type='text'  placeholder={t('Company Name')} name='companyName' />
+            <Field className="feild_input" type='email' placeholder={t('Email')} name='email'/>
+            <Field className="feild_input" type='text' placeholder={t('phone_number')} name='phoneNumber' autoComplete='on' />
                <textarea
                     ref={ref}
                     required="required"

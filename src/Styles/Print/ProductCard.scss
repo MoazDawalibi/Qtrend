@@ -22,8 +22,8 @@
     }
   }
 .product_card{
-    width:  13.5vw;
-    min-width: 150px;
+    width:  20.5vw !important;
+    min-width: 200px;
     // margin:100px ;
     background: #181818;
     padding: 10px;
@@ -54,10 +54,14 @@
 
     .card-body{
         display: flex;
+        width: 100%;
+        .card-body-left{
+            width: 100% !important;
+        }
         .quick_overview{
 
             font-size: max(1vw ,10px);
-            width: 90%;
+            width: 100%;
             max-width: 120px;
             height: 3.2vw !important;
             min-height: 35px;

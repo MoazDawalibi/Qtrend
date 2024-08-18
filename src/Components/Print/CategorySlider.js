@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import {useGetSlider} from '../../api/sliders' 
 import { BaseURL, BaseURLImage } from '../../api/config';
 import LoadingPage from '../../app/loading';
-
+import {SingleProductArray}  from './PrintConfig';
 
 
 
@@ -13,10 +13,10 @@ function CategorySlider() {
  
     const {data , isLoading} = useGetSlider()
     // console.log(data?.category_slider);
-    const sliderRender = data?.category_slider?.map(slider =>(
+    const sliderRender = SingleProductArray?.map(slider =>(
         <img  style={{zIndex:"0 !important" }}
-        src={BaseURLImage +slider.image} 
-        // src="../Print/heroimage.png"
+        // src={BaseURLImage +slider.image} 
+        src="../Print/heroimage.png"
         alt={slider.id}    key={slider.id} className='image-slider-category'  />
     ))
     

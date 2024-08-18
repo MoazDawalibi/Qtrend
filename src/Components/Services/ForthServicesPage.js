@@ -5,6 +5,7 @@ import GirlMedia from './GirlMedia'
 import Services4_Images from './Services4_Images'
 import Word_animation from './Word_animation'
 import { useTranslation } from 'react-i18next'
+import { FourthServiceFemale, FourthServiceKids, FourthServiceMale } from './ServicesConfig'
 export const ForthServicesPage = ({data}) => {
 
     console.log(data)
@@ -53,9 +54,9 @@ export const ForthServicesPage = ({data}) => {
                     <div className='Section_Section_Rigth'>
 
                         <div className='Section_Rigth_Top'>
-                                <Services4_Images Word={`female`} Data={data?.at(0)?.images}/>
-                                <Services4_Images Word={`male`} Data={data?.at(1)?.images}/>
-                                <Services4_Images Word={`kids`} Data={data?.at(2)?.images}/>
+                                <Services4_Images Word={`female`} Data={FourthServiceFemale}/>
+                                <Services4_Images Word={`male`} Data={FourthServiceMale}/>
+                                <Services4_Images Word={`kids`} Data={FourthServiceKids}/>
                         </div>
                         <div className='Section_Rigth_Down'>
                             <h3>

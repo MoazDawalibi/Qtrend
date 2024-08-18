@@ -7,7 +7,7 @@ const DragImages = ({data}) => {
             data?.map((img) => (
                 
                   <SwiperSlide key={img?.id}>
-                    <img src={BaseURLImage + img?.path} alt='' className='Swiper_image1' />
+                    {/* <img src={BaseURLImage + img?.path} alt='' className='Swiper_image1' /> */}
                   </SwiperSlide>
                 
               ))

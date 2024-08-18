@@ -14,32 +14,36 @@ const CategorySection = ({index}:CategorySectionProps) => {
     <div className='CategorySection'>
         <div className='CategoryCard_section'>
             <CategoryCard
-            name='PAPER PRINTS'
-            index={1}
-            desc='Top quality paper prints in Qatar'
-            image='../Print/Union.jpg'
+            name='PAPER'
+            index={index}
+            desc='Top quality in Qatar'
+            image='../Print/Union.png'
             />
+            
         </div>
         <div className='product_swiper'>
             <Swiper
+            // className=''
             spaceBetween={50}
-            slidesPerView={3}>
+            slidesPerView={3} 
+            className='product_swiper_container'>
                 <SwiperSlide>
-                    <div className='img_container'>
+                    {/* <div className='img_container'>
                     <img src={'../Print/Union.jpg'}/>
                     <img src={'../Print/Union.jpg'}/>
                     <img src={'../Print/Union.jpg'}/>
                     <img src={'../Print/Union.jpg'}/>
                     <img src={'../Print/Union.jpg'}/>
-                    </div>
+                    </div> */}
                {/* <div className='ProductCard'>
                <ProductCard
                 name='Business Cards'
                 index={1}
                 image='../Print/Rectangle 9629.png'
                 id={1}
+                price={'20'}
                 from_price='130'
-                quick_overview='Top quality brochures in Qatar'
+                translate='Top quality brochures in Qatar'
                 to_price='15'
                 />
                </div>
@@ -49,22 +53,44 @@ const CategorySection = ({index}:CategorySectionProps) => {
                 index={1}
                 image='../Print/Rectangle 9629.png'
                 id={1}
+                price={'20'}
                 from_price='130'
-                quick_overview='Top quality brochures in Qatar'
-                to_price='15'
-                />
-                </div>
-                <div className='ProductCard'>
-                <ProductCard
-                name='Business Cards'
-                index={1}
-                image='../Print/Rectangle 9629.png'
-                id={1}
-                from_price='130'
-                quick_overview='Top quality brochures in Qatar'
+                translate='Top quality brochures in Qatar'
                 to_price='15'
                 />
                 </div> */}
+                <div className='ProductCard'>
+                <ProductCard
+                name='Business Cards'
+                index={2}
+                image='../Print/Rectangle 9629.png'
+                id={1}
+                price={'20'}
+                from_price='130'
+                translate='Top quality brochures in Qatar'
+                to_price='15'
+                />
+                {/* <ProductCard
+                name='Business Cards'
+                index={2}
+                image='../Print/Rectangle 9629.png'
+                id={1}
+                price={'20'}
+                from_price='130'
+                translate='Top quality brochures in Qatar'
+                to_price='15'
+                />
+                <ProductCard
+                name='Business Cards'
+                index={2}
+                image='../Print/Rectangle 9629.png'
+                id={1}
+                price={'20'}
+                from_price='130'
+                translate='Top quality brochures in Qatar'
+                to_price='15'
+                /> */}
+                </div>
                 </SwiperSlide>
             </Swiper>
         </div>

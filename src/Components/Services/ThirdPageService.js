@@ -5,26 +5,28 @@ import CardThirdService from './CardThirdService'
 import { useTranslation } from 'react-i18next'
 import { BaseURL, BaseURLImage } from '../../api/config'
 import { TranslateObject } from '../../Utils/TranslateObject'
+import {ThirdServiceBigImagesArray, ThirdServiceSmallImagesArray } from './ServicesConfig'
 function ThirdPageService({data}) {
     const [t] = useTranslation()
     const {i18n} = useTranslation()
 
     useEffect(() => {
 
-        const IMages = data?.at(1)?.images ||[]
+        const IMages = ThirdServiceBigImagesArray ||[]
         let i = 0;
         setInterval(() => {
             let index = i
 
             if (document.getElementById('dynmic-image')) {
-                document.getElementById('dynmic-image').src =BaseURLImage+ IMages[index]?.path
+                document.getElementById('dynmic-image').src = IMages[index]?.img
             }
             i = (i + 1) % IMages.length
 
 
         }, 3000)
 
-    }, [])
+    }, [ThirdServiceBigImagesArray])
+    
     const Transion_page4 = () => {
         document.getElementById("Transion_page").classList.add("Transion_page4")
 
@@ -40,42 +42,60 @@ function ThirdPageService({data}) {
 
             </div>
             <div className='images'>
-
-
                   {
-                        data?.at(0)?.images?.map((img ,i)=>(
+                        ThirdServiceSmallImagesArray?.map((img ,i)=>(
                         <div className={`img-service-container ${(i %3 ==0 ? 'down-image' :null)}`  }  key={img?.id}>
                             <img
                                 alt='/service'
                                 className='img-service'
-                                src={BaseURLImage + img.path}
+                                src={img.img}
                             />
                         </div>  
                         ))
                     }
             </div>
-            <CardThirdService title={TranslateObject(data?.at(0)?.translations, i18n.language ,'title')}
+            {/* <CardThirdService title={TranslateObject(data?.at(0)?.translations, i18n.language ,'title')}
                 style={{
                     margin: "auto",
                     marginTop: "1.5vw"
 
                 }}
-                 description={TranslateObject(data?.at(0)?.translations, i18n.language ,'description')} />
-
+                 description={TranslateObject(data?.at(0)?.translations, i18n.language ,'description')} /> */}
+                <CardThirdService 
+                 title={t("PHOTOS")}
+                 style={{
+                    margin: "auto",
+                    marginTop: "1.5vw"
+                 }}
+                 description={t("Leverage your in-depth brand knowledge, seamless integration capabilities, cost savings, and collaborative spirit to create visuals that authentically represent your brand and resonate with your target audience.")} />
 
             <div className='third-row-service-third'>
 
-                <CardThirdService title={TranslateObject(data?.at(1)?.translations, i18n.language ,'title')} description={TranslateObject(data?.at(0)?.translations, i18n.language ,'description')}
+                {/* <CardThirdService title={TranslateObject(data?.at(1)?.translations, i18n.language ,'title')} description={TranslateObject(data?.at(0)?.translations, i18n.language ,'description')}
                 classNameForDescription={'card-service-third-row-p'}
 
-                />
+                /> */}
+                 <CardThirdService 
+                 title={t("VIDEO TAPING")} 
+                 description={t("Having our company in charge of video taping ensures that the videos align with your brand's visual identity and guidelines. The videos will reflect the same aesthetics, style, and tone that your brand is known for, creating a consistent and recognizable brand presence across all your video content.")}
+                 classNameForDescription={'card-service-third-row-p'}/>
 
                 <div className='img-service-container-third-row '>
+                {/* {
+                        ThirdServiceBigImagesArray?.map((img ,i)=>(
+                            <img
+                                // id='dynmic-image'
+                                alt='/service'
+                                className='img-service'
+                                src={img.img}
+                            />
+                        ))
+                    } */}
                     <img
                         id='dynmic-image'
                         alt='/service'
                         className='img-service'
-                        src={'../Services/Services3/first.webp'}
+                        src={'/Services/Services3/7.png'}
                     />
                 </div>
             </div>

@@ -28,7 +28,7 @@ const Page = () => {
     }
   }, [categoryApiResponse, categoryApiError]);
 
-  if(isLoading) return <LoadingPage/>
+  // if(isLoading) return <LoadingPage/>
 
   return (
     <div className='print_page'>
@@ -49,7 +49,7 @@ const Page = () => {
         </div>
       </div>
       <div className='category_product'>
-        {categoryData.map((category, index) => (
+        {/* {categoryData.map((category, index) => (
           <CategoryHomeSectionWithProduct
             key={index}
             color={category.background_color}
@@ -58,7 +58,8 @@ const Page = () => {
             perPage={perPage}
             category={category}
           />
-        ))}
+        ))} */}
+        <CategorySection index={1}/>
       </div>
       <PrintLastSection />
       <Footer />
