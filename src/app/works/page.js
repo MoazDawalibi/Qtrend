@@ -46,15 +46,15 @@ function Works() {
         <div className="img_first">
           
           {
-              images?.at(0) &&
+              // images?.at(0) &&
               <div className="img1">
-              <img src={BaseURLImage + images?.at(0)?.path} alt=""/>
+              <img src={'/works/1.webp'} alt=""/>
             </div>
           }
             {
-              images?.at(1) &&
+              // images?.at(1) &&
               <div className="img1">
-              <img src={BaseURLImage + images?.at(1)?.path} alt=""/>
+              <img src={'/works/3.webp'} alt=""/>
             </div>
           }
        
@@ -62,21 +62,21 @@ function Works() {
         </div>
         <div className="img_second">
         {
-              images?.at(2) &&
+              // images?.at(2) &&
               <div className="img1">
-              <img src={BaseURLImage + images?.at(2)?.path} alt=""/>
+              <img src={'/works/4.webp'} alt=""/>
             </div>
           }
             {
-              images?.at(3) &&
+              // images?.at(3) &&
               <div className="img1">
-              <img src={BaseURLImage + images?.at(3)?.path} alt=""/>
+              <img src={'/works/5.webp'} alt=""/>
             </div>
           }
             {
-              images?.at(4) &&
+              // images?.at(4) &&
               <div className="img1">
-              <img src={BaseURLImage + images?.at(4)?.path} alt=""/>
+              <img src={'/works/6.webp'} alt=""/>
             </div>
           }
 
